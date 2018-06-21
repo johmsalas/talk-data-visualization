@@ -1,0 +1,5 @@
+{
+  "url-loader": {
+    "exts": ["jpg", "jpeg", "png", "gif", "txt"]
+  }
+}

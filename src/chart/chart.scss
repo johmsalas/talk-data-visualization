@@ -1,0 +1,36 @@
+.country {
+    stroke: black;
+    stroke-width: 1.5;
+    fill: white;
+
+    &--continent {
+        &-asia {
+            fill: #149ECC;
+        }
+
+        &-australia {
+            fill: blue;
+        }
+
+        &-south-america,
+        &-north-america {
+            fill: #00FFB3;
+        }
+
+        &-africa {
+            fill: #FF4D40;
+        }
+
+        &-europe {
+            fill: yellow;
+        }
+
+        &-oceania {
+            fill: red;
+        }
+
+        &-antarctica {
+            fill: yellow;
+        }
+    }
+}
